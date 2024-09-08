@@ -12,8 +12,7 @@ A clean and responsive product card built with HTML and CSS. This card design sh
 
 ## 🌐 Live Demo
 
-Check out the live demo of the product card [here](https://your-hosting-link.com).
-
+Check out the live demo of the product card [ https://mariumshiraz.github.io/Product_Card/]
 ## 🚀 Technologies Used
 
 - HTML5
