@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+}
+.product-card{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.card-header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.brand-logo {
+    width: 40px;
+
+}
+.wishlist-icon{
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+.product-image{
+    width: 100px;
+    margin-bottom: 15px ;
+    border-radius: 10px;
+}
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFD700;
+}
+
+.product-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.color-options {
+    display: flex;
+    gap: 5px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ddd;
+}
+
+.color.blue {
+    background-color: blue;
+}
+
+.color.pink {
+    background-color: pink;
+}
+
+.color.yellow {
+    background-color: yellow;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
